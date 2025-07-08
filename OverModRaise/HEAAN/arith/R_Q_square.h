@@ -21,7 +21,6 @@ struct R_Q_square{
 	   void setzero(){ data[0].setzero(); data[1].setzero();}
 };
 //-----------------------------------------------------------
-//  ���
 //-----------------------------------------------------------
 template <int LOGQ, int N>
 void R_Q_square <LOGQ, N>::print()const{
@@ -31,7 +30,6 @@ void R_Q_square <LOGQ, N>::print()const{
 	printf("]\n");
 }
 //-----------------------------------------------------------
-// �⺻ operations
 //-----------------------------------------------------------
 template<int LOGQ, int N>
 void R_Q_square <LOGQ,N> :: operator += (const R_Q_square<LOGQ,N>& B){
