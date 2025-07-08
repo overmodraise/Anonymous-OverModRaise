@@ -3,14 +3,14 @@
 ## Build and Run Instructions
 
 ```bash
-# Compile with debug symbols
+# Compile
 g++ -g proposal_main.cpp -o filename -I.
 
 # Launch under gdb
 gdb ./filename
 run
 
-# If you encounter a stack overflow or segmentation fault due to limited stack size:
+# If you encounter a stack overflow or segmentation fault due to limited stack size
 ulimit -s unlimited
 ```
 
