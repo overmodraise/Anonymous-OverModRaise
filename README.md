@@ -14,9 +14,10 @@ run
 ulimit -s unlimited
 ```
 
-## To reproduce the throughput results in Table 5 of the paper, execute the following six functions in proposal_main.cpp one at a time:
+## Reproducing the throughput results in Table 5 of the paper
 
 ```bash
+# execute the following six functions in proposal_main.cpp one at a time
 # 1) logN = 15
 evalroundplus_test_S2C_first<15, 28, 30, 7, 7, 49>();
 erpluspar_12_S2C_first<15, 29, 30, 7, 7, 10, 20, 21, 49>();
