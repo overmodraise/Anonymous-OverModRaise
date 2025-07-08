@@ -3,7 +3,7 @@
 ## Build and Run Instructions
 
 ```bash
-# Compile with debug symbols (note: '-I.' uses a capital 'I', not a lowercase 'l')
+# Compile with debug symbols
 g++ -g proposal_main.cpp -o filename -I.
 
 # Launch under gdb
