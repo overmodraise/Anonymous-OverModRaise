@@ -176,7 +176,6 @@ void Z_Q<LOGQ>::to_str( char* str ) const { // string of decimal digits
 
 
 //-----------------------------------------------------------
-// ������ ���
 //-----------------------------------------------------------
 template<int LOGQ>
 void Z_Q<LOGQ>::print_unsigned()const {
@@ -185,7 +184,6 @@ void Z_Q<LOGQ>::print_unsigned()const {
 }
 
 //-----------------------------------------------------------
-// �⺻ operations
 //-----------------------------------------------------------
 template<int LOGQ>
 void Z_Q<LOGQ>::operator+=(const Z_Q<LOGQ>& A) {
