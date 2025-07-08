@@ -1739,14 +1739,14 @@ int main()
 	auto start_time = std::chrono::high_resolution_clock::now();
 
 	// logN=15
-	erpluspar_all_together_bootstrap_test_S2C_first<15, 29, 30, 7, 7, 10, 20, 21, 49>();
 	//evalroundplus_test_S2C_first<15, 28, 30, 7, 7, 49>();
 	//erpluspar_12_S2C_first<15, 29, 30, 7, 7, 10, 20, 21, 49>();
+	//erpluspar_all_together_bootstrap_test_S2C_first<15, 29, 30, 7, 7, 10, 20, 21, 49>();
 
 	// logN=16
-	//erpluspar_all_together_bootstrap_test_S2C_first<16, 38, 42, 4, 5, 16, 26, 30, 58>();
 	//evalroundplus_test_S2C_first<16, 37, 42, 4, 5, 58>();
 	//erpluspar_12_S2C_first<16, 38, 42, 4, 5, 16, 26, 30, 58>();
+	//erpluspar_all_together_bootstrap_test_S2C_first<16, 38, 42, 4, 5, 16, 26, 30, 58>();
 
 	auto end_time = std::chrono::high_resolution_clock::now();
 	auto duration_all = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
