@@ -515,11 +515,9 @@ void C2S_4_5_bootstrap_test()
 
 int main()
 {
-
-	C2S_3_5_bootstrap_test<16, 60, 50, 4, 5, 30, 30, 25, 25>();
+	//C2S_3_5_bootstrap_test<16, 60, 50, 4, 5, 30, 30, 25, 25>();
 
 	//C2S_4_5_bootstrap_test<16, 31, 56, 4, 5, 10, 21, 23, 33, 32>();
 
 	//all_together_C2S_tuple_bootstrap_test<16, 31, 56, 4, 5, 10, 21, 23, 33, 32>();
-
 }
